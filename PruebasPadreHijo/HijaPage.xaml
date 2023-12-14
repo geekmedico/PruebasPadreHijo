@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PruebasPadreHijo.HijaPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Escribe un texto que se enviará a la MainPage"/>
+            <Entry x:Name="txtTextoHijo"/>
+            <Button Text="Cerrar / regresar"
+                    x:Name="btnCerrar"
+                    Clicked="btnCerrar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

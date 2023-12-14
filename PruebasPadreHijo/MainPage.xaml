@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PruebasPadreHijo.MainPage">
+
+    <StackLayout>
+        <Label Text="Texto generado en el metodo de la MainPage"/>
+        <Entry x:Name="txtTexto"/>
+        <Button Text="Abrir HijaPage"
+                x:Name="btnAbrirHija"
+                Clicked="btnAbrirHija_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
