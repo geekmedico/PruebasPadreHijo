@@ -18,7 +18,7 @@ namespace PruebasPadreHijo
         {
             InitializeComponent();
         }
-        //Creamos esta Constructor para poder inicia nuetra página con el parametro que deseamos
+        //Creamos este Constructor para poder iniciar nuestra página con el parametro que deseamos
         public HijaPage(Action<string> callBack)
         {
             InitializeComponent();
